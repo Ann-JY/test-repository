@@ -1,7 +1,7 @@
 function update() {
   //   alert("클릭");
 
-  document.getElementById("location").innerHTML = "New York";
+  document.getElementById("location").innerHTML = "Good?";
 }
 
 // update();

@@ -25,7 +25,7 @@ body {
 #weather-icon {
   width: 360px;
   height: 360px;
-  background-color: #d66d6d;
+  background-color: #6d77d6;
   margin-top: 35px;
   margin-bottom: 35px;
 
@@ -45,8 +45,23 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.container {
+  margin: 30px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.box {
+  padding: 30px;
+  font-size: 30px;
+  background-color: #ffffff;
+  color: rgb(6, 4, 133);
+}
+
 #button {
   position: absolute;
-  top: 70px;
-  right: 30px;
+  top: 110px;
+  right: 700px;
 }
